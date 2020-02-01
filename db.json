@@ -1,0 +1,33 @@
+{
+  "songs": [
+    {
+      "id": 1,
+      "title": "Rapture",
+      "artistId": 1
+    },
+    {
+      "id": 2,
+      "title": "Andromeda",
+      "artistId": 1
+    },
+    {
+      "id": 3,
+      "title": "Mercury: Retrograde",
+      "artistId": 1
+    }
+  ],
+  "artists": [
+    {
+      "id": 1,
+      "name": "Ghostemane"
+    },
+    {
+      "id": 2,
+      "name": "Tame Impala"
+    },
+    {
+      "id": 3,
+      "name": "Coldplay"
+    }
+  ]
+}

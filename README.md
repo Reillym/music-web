@@ -1,4 +1,10 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Docker
+
+Run test suite `docker exec -it containerid npm run test`
+
+## Architecture Notes
+
+https://github.com/redux-utilities/flux-standard-action
 
 ## Available Scripts
 
