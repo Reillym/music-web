@@ -7,3 +7,16 @@ before_install:
 
 script:
   - docker run -e CI=true mreilly/music-web npm run test
+
+deploy:
+  edge: true
+  provider: elasticbeanstalk
+  region: us-east-1
+  app: music-web
+  env: MusicWeb-env
+  bucket_name: elasticbeanstalk-us-east-1-725136632705
+  bucket_path: music-web
+  on:
+    branch: master
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
